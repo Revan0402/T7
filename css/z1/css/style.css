@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 1366px;
+    min-height: 657px;
+    display: flex;
+}    
+
+ul {
+    width: 1366px;
+    height: 657px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 50px;
+    background-image: url(https://images.wallpaperscraft.com/image/single/dark_black_and_white_abstract_black_background_76353_1366x768.jpg);
+}
+ul li {
+    position: relative;
+    list-style: none;
+    width: 70px;
+    height: 70px;
+    font-size: 60px;
+    display: flex;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    background:#fff;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+    cursor: pointer;
+}
+ul li .fa{
+    font-size: 56px;
+    -webkit-text-stroke: 2px var(--clr);
+    color: transparent;
+}
+ul li:hover{
+    border-bottom: 7px groove var(--clr);
+    transition: 1.5s;
+    color: var(--clr);
+    filter: drop-shadow(0 0 5px var(--clr));
+}
